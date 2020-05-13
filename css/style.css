@@ -1,0 +1,79 @@
+body {
+
+	margin: 0 0 0 0;
+}
+.upper {
+	background-color: #000;
+	height: 200%;
+	text-align: center;
+}
+.upper-text ,.upper-image{
+	margin: 0 0 0 0;
+}
+
+.image1 {
+	width: 50%;
+}
+
+.ml3 {
+  color: #fff;
+  margin: 0 0 0 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 3.5em;
+}
+
+.ml12 {
+	color: #fff;
+	margin: 0 0 0 0;
+	font-size: 2.5em;
+	font-family: 'Dancing Script', cursive;
+    letter-spacing: 0.5em;
+}
+
+.ml12 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.middle div {
+	display: inline-block;
+	width: 49.7%;
+	margin: 0 0 0 0;
+}
+
+.middle .intro {
+	color: #fff;
+}
+
+.middle, .middle1 {
+	display: flex;
+}
+
+.middle1 div {
+	display: inline-block;
+	width: 49.7%;
+	margin: 0 0 0 0;
+}
+
+.middle1 .intro1 {
+	color: #fff;
+	padding-top: 4em;
+	padding-bottom: 4em;
+}
+
+.footer {
+	background-color: #000;
+	text-align: center;
+	color: #fff;
+}
+
+.icon {
+	padding-left: 2em;
+}
+
+.intro {
+	font-family: 'Calligraffitti', cursive;
+	font-size: 1em;
+	letter-spacing: 0.2em;
+	font-weight: 600;
+}
