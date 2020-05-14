@@ -51,7 +51,7 @@ body {
 
 .middle1 div {
 	display: inline-block;
-	width: 49.7%;
+	width: 45.7%;
 	margin: 0 0 0 0;
 }
 
@@ -77,3 +77,40 @@ body {
 	letter-spacing: 0.2em;
 	font-weight: 600;
 }
+
+.flip-container {
+	width: 48.7%;
+	perspective: 1000px;
+}
+
+.flip {
+	width: 100% !important;
+	height: 100%;
+	position: relative;
+	transition: transform 1s;
+	transform-style: preserve-3d;
+}
+
+.flip-container:hover .flip {
+	transform: rotateY(180deg);
+}
+
+.front, .back {
+	position: absolute;
+	backface-visibility: hidden;
+	width: 100% !important;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.front {
+	background-color: #dcd6f7;
+	color: #000;
+}
+
+.back {
+	transform: rotateY(180deg);
+}	
